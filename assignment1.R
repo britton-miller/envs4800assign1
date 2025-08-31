@@ -24,10 +24,5 @@ ggplot() +
     theme_minimal() +
     labs(title = "Railway Stations of Mexico (Nodes)")
 
-install.packages("usethis")
-library(usethis)
-edit_git_config()
-use_github(github.com/britton-miller/envs4800assign1.git)
-use_git_remote(name = "origin", github.com/britton-miller/envs4800assign1, overwrite = FALSE)
 
 
